@@ -24,10 +24,16 @@ function Hero() {
               href="https://www.linkedin.com/in/muhammed-hamza-toptanc%C4%B1-8440a7235/"
               target="_blank"
             >
-              <img src={linkedin} alt="" />
+              <div
+                className="bg-[url('assets/LinkedIn.png')] dark:bg-[url('assets/LinkedIn1.png')]  bg-no-repeat  w-8 h-8"
+                alt=""
+              />
             </a>
             <a href="https://github.com/Hamzinski" target="_blank">
-              <img src={github} alt="" />
+              <div
+                className="bg-[url('assets/github.png')] dark:bg-[url('assets/github1.png')]  bg-no-repeat  w-10 h-10"
+                alt=""
+              />
             </a>
           </div>
           <div className="mt-6">
