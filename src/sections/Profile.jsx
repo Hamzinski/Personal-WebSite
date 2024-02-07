@@ -34,16 +34,10 @@ function Profile() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-3 w-1/2 ">
-            <h3 className="font-playfair text-2xl dark:text-[#FFFFFF] ">
-              {t("profiles.alt2")}
-            </h3>
-            <p className="font-inter text-lg dark:text-[#FFFFFF]">
-              {t("profiles.about")}{" "}
-              <p className="mt-8 text-lg dark:text-[#FFFFFF]">
-                {t("profiles.about1")}
-              </p>
-            </p>
+          <div className="flex flex-col gap-3 w-1/2 dark:text-[#FFFFFF]  ">
+            <h3 className="font-playfair text-2xl ">{t("profiles.alt2")}</h3>
+            <p className="font-inter text-lg ">{t("profiles.about")} </p>
+            <p className="mt-4 text-lg ">{t("profiles.about1")}</p>
           </div>
         </div>
       </div>

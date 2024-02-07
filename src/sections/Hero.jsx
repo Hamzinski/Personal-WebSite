@@ -20,10 +20,13 @@ function Hero() {
             </p>
           </div>
           <div className="flex gap-4 mt-12">
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/muhammed-hamza-toptanc%C4%B1-8440a7235/"
+              target="_blank"
+            >
               <img src={linkedin} alt="" />
             </a>
-            <a href="">
+            <a href="https://github.com/Hamzinski" target="_blank">
               <img src={github} alt="" />
             </a>
           </div>

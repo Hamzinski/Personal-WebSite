@@ -24,15 +24,14 @@ function Skills() {
           {t("skills.skill")}
         </h1>
         <div className="flex gap-9 mt-12">
-          {icons.map((icon) => (
-            <div className="w-32 ">
+          {icons.map((icon, index) => (
+            <div key={index} className="w-32">
               <img
-                key={icon.alt}
-                className=" h-32 rounded-md object-cover"
+                className="h-32 rounded-md object-cover"
                 src={icon.img}
-                alt=""
+                alt={icon.alt}
               />
-              <p className="font-inter text-center text-[#777777] dark:text-[#D9D9D9] ">
+              <p className="font-inter text-center text-[#777777] dark:text-[#D9D9D9]">
                 {icon.alt}
               </p>
             </div>
