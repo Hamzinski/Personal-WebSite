@@ -23,7 +23,7 @@ function Skills() {
         <h1 className="font-inter text-5xl dark:text-[#F4F4F4]">
           {t("skills.skill")}
         </h1>
-        <div className="flex gap-9 mt-12">
+        <div className="flex flex-wrap justify-center  md:flex-nowrap gap-9 mt-12 ">
           {icons.map((icon, index) => (
             <div key={index} className="w-32">
               <img

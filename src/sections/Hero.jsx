@@ -7,9 +7,9 @@ function Hero() {
   const { t, i18n } = useTranslation();
   const isEnglish = i18n.language === "en";
   return (
-    <div className="flex justify-center items-center py-12  dark:bg-[#2A262B]  bg-[#F4F4F4]">
-      <div className="flex justify-between items-center max-w-screen-lg ">
-        <div className="w-[55%]">
+    <div className="flex justify-center items-center  py-12  dark:bg-[#2A262B]  bg-[#F4F4F4] ">
+      <div className="flex flex-col md:flex-row justify-between items-center max-w-screen-lg   ">
+        <div className="w-[80%] md:w-[55%]">
           <div className="">
             <p className="font-inter font-light text-3xl dark:text-[#FFFFFF]">
               {t("hero.hi")} <br />
@@ -45,8 +45,8 @@ function Hero() {
           </div>
         </div>
 
-        <div className=" w-80 mb-4 shadow-[-20px_-20px_1px_rgba(233,_37,_119,_1),_0_0px_0px_rgba(233,_37,_119,_1)] rounded-3xl">
-          <img className="w-[100%] rounded-3xl" src={hamz} alt="" />
+        <div className=" w-80 mb-4 mt-12 md:mt-0 shadow-[-20px_-20px_1px_rgba(233,_37,_119,_1),_0_0px_0px_rgba(233,_37,_119,_1)] rounded-3xl">
+          <img className="w-[100%]  rounded-3xl" src={hamz} alt="" />
         </div>
       </div>
     </div>

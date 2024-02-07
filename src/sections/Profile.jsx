@@ -15,8 +15,8 @@ function Profile() {
         {t("profiles.profile")}
       </h1>
       <div className="mt-24 max-w-screen-lg mx-auto flex justify-center items-center  ">
-        <div className="flex justify-center items-center gap-8 w-full">
-          <div className="p-8 bg-white dark:bg-[#525252] rounded-xl   flex flex-col gap-3 w-1/2 dark:shadow-[10px_10px_1px_rgba(52,_52,_52,_1),_0_0px_0px_rgba(52,_52,_52,_1)]  shadow-[10px_10px_1px_rgba(82,_82,_82,_1),_0_0px_0px_rgba(82,_82,_82,_1)]">
+        <div className="flex flex-col justify-center items-center md:flex-row gap-8 w-full">
+          <div className="p-8 bg-white dark:bg-[#525252] rounded-xl   flex flex-col gap-3 w-[90%] md:w-1/2 dark:shadow-[10px_10px_1px_rgba(52,_52,_52,_1),_0_0px_0px_rgba(52,_52,_52,_1)]  shadow-[10px_10px_1px_rgba(82,_82,_82,_1),_0_0px_0px_rgba(82,_82,_82,_1)]">
             <h2 className="font-playfair text-[#EA2678] text-2xl">
               {t("profiles.alt1")}
             </h2>
@@ -34,7 +34,7 @@ function Profile() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-3 w-1/2 dark:text-[#FFFFFF]  ">
+          <div className="flex flex-col gap-3 w-[90%] md:w-1/2 dark:text-[#FFFFFF]  ">
             <h3 className="font-playfair text-2xl ">{t("profiles.alt2")}</h3>
             <p className="font-inter text-lg ">{t("profiles.about")} </p>
             <p className="mt-4 text-lg ">{t("profiles.about1")}</p>

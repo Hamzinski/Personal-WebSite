@@ -64,11 +64,11 @@ function Projects() {
         {" "}
         {t("projects.project")}
       </h1>
-      <div className="mt-24 max-w-screen-lg flex justify-center items-center gap-9 h-[700px] ">
+      <div className="mt-24 max-w-screen-lg flex flex-col md:flex-row justify-center items-center gap-12 md:gap-9 md:h-[700px] ">
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className={`h-full relative rounded-xl w-1/2  p-14 dark:bg-[var(--project-bg-dark)] bg-[var(--project-bg-light)]`}
+            className={`h-full relative rounded-xl w-[90%] md:w-1/2 p-14 dark:bg-[var(--project-bg-dark)] bg-[var(--project-bg-light)]`}
             style={{
               "--project-bg-light": project.color,
               "--project-bg-dark": project.darkColor,
@@ -104,14 +104,14 @@ function Projects() {
                 {t("projects.link1")}
               </a>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mt-32 md:mt-0">
               <img
-                className="mt-8 absolute max-h-26 bottom-[-30px]"
+                className="mt-8 absolute md:max-h-none max-h-40  bottom-[-30px]"
                 src={project.inLaptop}
                 alt=""
               />
               <img
-                className="mt-8 absolute bottom-[-40px]"
+                className="mt-8 absolute w-[310px] md:w-auto bottom-[-40px]"
                 src={laptop}
                 alt=""
               />
@@ -119,9 +119,9 @@ function Projects() {
           </div>
         ))}
       </div>
-      <div className="mt-24 p-14 mx-auto max-w-screen-lg flex gap-12 ">
-        <div className="w-4/6">
-          <h1 className="font-inter text-5xl py-20 text-right dark:text-[#FFFFFF]">
+      <div className="mt-0 md:mt-24 p-14 mx-auto max-w-screen-lg flex flex-col justify-center items-center  md:flex-row gap-0 md:gap-12 ">
+        <div className="w-full">
+          <h1 className="font-inter text-5xl py-20 text-center md:text-right dark:text-[#FFFFFF]">
             {t("projects.lets")}
           </h1>
         </div>
