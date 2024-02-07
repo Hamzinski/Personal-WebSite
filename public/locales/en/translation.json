@@ -1,0 +1,44 @@
+{
+  "mod": "DARK MODE",
+  "mod1": "LIGHT MODE",
+  "switch1": "TÜRKÇE",
+  "switch2": "'YE GEÇ",
+  "hero": {
+    "hi": "Hi!👋",
+    "intro": "I'm Hamza. I'm a full-stack developer. I can craft solid and scalable frontend products.",
+    "intro2": "Let's meet!",
+    "alt1": "Currently",
+    "alt2": "Freelancing",
+    "alt3": "for",
+    "alt4": "UX, UI, & Web Design",
+    "alt5": "Project .",
+    "alt6": "Invite me to join your team →",
+    "alt7": "toptanci.hamza@gmail.com"
+  },
+  "skills": {
+    "skill": "Skills"
+  },
+  "profiles": {
+    "profile": "Profile",
+    "alt1": "Basic Information",
+    "alt2": "About me",
+    "birdth": "Date of Birth",
+    "birdth1": "27.11.1998",
+    "city": "City of Residence",
+    "city1": "Kyoto",
+    "edu": "Educational Status",
+    "edu1": "Dumlupınar Uni. Computer Science, 2023",
+    "role": "Preferred Role",
+    "role1": "Frontend, UI",
+    "about": "Hello! I'm a frontend developer. My role is to create the frontend of the interface through which users interact with websites or applications.",
+    "about1": "I am constantly working to improve the user experience using web technologies such as HTML, CSS and JavaScript."
+  },
+  "projects": {
+    "project": "Projects",
+    "title": "Random Jokes",
+    "title1": "Are you bored?",
+    "link": "View on Github",
+    "link1": "Go to app→",
+    "lets": "Let’s work together on your next product."
+  }
+}

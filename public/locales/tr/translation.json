@@ -1,0 +1,44 @@
+{
+  "mod": "KOYU TEMA",
+  "mod1": "AÇIK TEMA",
+  "switch1": "SWITCH TO",
+  "switch2": " ENGLISH",
+  "hero": {
+    "hi": "Merhaba!👋",
+    "intro": "Ben Hamza. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünler üretebilirim.",
+    "intro2": "Görüşelim!",
+    "alt1": "Şu anda",
+    "alt2": "Freelancer",
+    "alt3": "olarak",
+    "alt4": "UX, UI, & Web Design",
+    "alt5": "projelerinde çalışıyorum.",
+    "alt6": "Beni ekibinize katılmaya davet edin →",
+    "alt7": "toptanci.hamza@gmail.com"
+  },
+  "skills": {
+    "skill": "Yetenekler"
+  },
+  "profiles": {
+    "profile": "Profil",
+    "alt1": "Temel Bilgiler",
+    "alt2": "Hakkımda",
+    "birdth": "Doğum Tarihi",
+    "birdth1": "27.11.1998",
+    "city": "İkamet Şehri",
+    "city1": "Kyoto",
+    "edu": "Eğitim Durumu",
+    "edu1": "Dumlupınar Ünv. Bilgisayar Mühendisliği, 2023",
+    "role": "Tercih Ettiği Rol",
+    "role1": "Frontend, UI",
+    "about": "Merhaba! Ben bir frontend geliştiriciyim. Görevim, kullanıcıların web siteleri veya uygulamalarıyla etkileşimde bulundukları arayüzün ön yüzünü oluşturmaktır. ",
+    "about1": "HTML, CSS ve JavaScript gibi web teknolojilerini kullanarak, kullanıcı deneyimini geliştirmek için sürekli olarak çalışıyorum."
+  },
+  "projects": {
+    "project": "Projeler",
+    "title": "Rastgele Şakalar",
+    "title1": "Sıkıldın mı?",
+    "link": "Github'da Görüntüle",
+    "link1": "Uygulamaya git→",
+    "lets": "Bir sonraki ürününüz üzerinde birlikte çalışalım."
+  }
+}
