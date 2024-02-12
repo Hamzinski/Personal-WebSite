@@ -1,7 +1,5 @@
 import React from "react";
 import hamz from "../assets/t.jpg";
-import linkedin from "../assets/LinkedIn.png";
-import github from "../assets/github.png";
 import { useTranslation } from "react-i18next";
 function Hero() {
   const { t, i18n } = useTranslation();
