@@ -1,8 +1,14 @@
-# React + Vite
+Personal Website
+This project contains information about the technologies used to create a personal website and general details about the project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used
+HTML (HyperText Markup Language): A markup language used to define the structure of web pages.
 
-Currently, two official plugins are available:
+CSS (Cascading Style Sheets): A style language used to control the appearance and layout of HTML elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JavaScript: A programming language used for interaction and dynamic content on web pages.
+
+React: A JavaScript library used to build user interfaces.
+
+About the Project
+This project was developed to create a personal website using HTML, CSS, JavaScript, and React. The website allows users to share information about themselves, showcase portfolio items, and provide contact details.
