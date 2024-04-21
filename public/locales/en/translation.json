@@ -35,10 +35,12 @@
   },
   "projects": {
     "project": "Projects",
-    "title": "Random Jokes",
-    "title1": "Are you bored?",
+    "title": "My eCommerce",
+    "title1": "Pizza Challenge Site",
     "link": "View on Github",
     "link1": "Go to app→",
-    "lets": "Let’s work together on your next product."
+    "lets": "Let’s work together on your next product.",
+    "projectinfo": "My biggest project so far. This project allows users to have a real-time purchasing experience. Front-end built using Javascript, React, Redux, Tailwind-Css,Reactstrap. The backend phase of the project is still ongoing.",
+    "projectinfo1": "It’s a website that gives users a pizza buying simulation. This project, developed using HTML, CSS, Javascript, React, is one of my first experiences."
   }
 }

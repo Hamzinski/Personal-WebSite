@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import laptop from "../assets/laptop.png";
-import laptop1 from "../assets/laptop1.png";
-import laptop2 from "../assets/laptop2.png";
+import ecommerce from "../assets/ecommerce.png";
+import pizza from "../assets/pizza.png";
 import { useTranslation } from "react-i18next";
 
 function Projects() {
@@ -9,19 +9,21 @@ function Projects() {
   const projectsData = [
     {
       title: `${t("projects.title")}`,
-      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-      labels: ["react", "vercel", "axios", "router"],
-      link: "https://github.com/Hamzinski",
-      inLaptop: laptop1,
+      text: `${t("projects.projectinfo")}`,
+      labels: ["react", "redux", "vercel", "axios", "router"],
+      link: "https://github.com/Hamzinski/my-e-commerce",
+      linkk: "https://hamz-e-commerce.vercel.app",
+      inLaptop: ecommerce,
       color: "#DDEEFE",
       darkColor: "#2D3235",
     },
     {
       title: `${t("projects.title1")}`,
-      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
-      labels: ["react", "redux", "axios", "router", "vercel"],
-      link: "https://github.com/Hamzinski",
-      inLaptop: laptop2,
+      text: `${t("projects.projectinfo1")}`,
+      labels: ["react", "axios", "router", "vercel"],
+      link: "https://github.com/Hamzinski/Pizza-Challenge-Site",
+      linkk: "https://hamzPizza.vercel.app",
+      inLaptop: pizza,
       color: "#D9F6F1",
       darkColor: "#495351",
     },
@@ -41,7 +43,7 @@ function Projects() {
     },
     {
       text: "Linkedin",
-      href: "https://www.linkedin.com/in/muhammed-hamza-toptanc%C4%B1-8440a7235/",
+      href: "https://www.linkedin.com/in/muhammed-hamza-toptancı/",
       color: "#0077B5",
       darkColor: "#0077B5",
     },
@@ -99,14 +101,14 @@ function Projects() {
               </a>{" "}
               <a
                 className="font-inter font-semibold  text-xl dark:text-[#FFFFFF]"
-                href={project.link}
+                href={project.linkk}
               >
                 {t("projects.link1")}
               </a>
             </div>
             <div className="flex justify-center items-center mt-32 md:mt-0">
               <img
-                className="mt-8 absolute md:max-h-none max-h-40  bottom-[-30px]"
+                className="mt-8 absolute md:max-h-none max-h-40 w-3/5 md:w-3/4 h-56 bottom-[-30px] md:bottom-[0px]"
                 src={project.inLaptop}
                 alt=""
               />

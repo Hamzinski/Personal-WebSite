@@ -35,10 +35,12 @@
   },
   "projects": {
     "project": "Projeler",
-    "title": "Rastgele Şakalar",
-    "title1": "Sıkıldın mı?",
+    "title": "My eCommerce",
+    "title1": "Pizza Challenge Site",
     "link": "Github'da Görüntüle",
     "link1": "Uygulamaya git→",
-    "lets": "Bir sonraki ürününüz üzerinde birlikte çalışalım."
+    "lets": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+    "projectinfo": "Şu ana kadarki en büyük projem. Bu proje, kullanıcıların gerçek zamanlı bir satın alma deneyimi yaşamasına olanak tanıyor. Javascript, React, Redux, Tailwind-Css, Reactstrap kullanılarak oluşturulmuş ön uç. Projenin backend aşaması halen devam etmektedir.",
+    "projectinfo1": "Kullanıcılara pizza satın alma simülasyonu sunan bir web sitesidir. HTML, CSS, Javascript, React kullanılarak geliştirilen bu proje ilk deneyimlerimden biridir."
   }
 }
