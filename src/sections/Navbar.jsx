@@ -38,8 +38,8 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-12  ">
-      <div className="flex justify-end mx-auto max-w-screen-lg  ">
+    <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-12">
+      <div className="flex justify-end mx-auto max-w-screen-lg">
         <div className="flex items-center gap-6 font-inter">
           <button
             className="w-16 h-6 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow"

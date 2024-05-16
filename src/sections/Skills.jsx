@@ -5,6 +5,7 @@ import node from "../assets/node.jpg";
 import riakt from "../assets/react.png";
 import vscode from "../assets/vscode.png";
 import ridaks from "../assets/xd.png";
+import java from "../assets/JAVAPNG1.png";
 import { useTranslation } from "react-i18next";
 function Skills() {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ function Skills() {
     { img: ridaks, alt: "REDUX" },
     { img: node, alt: "NODE JS" },
     { img: vscode, alt: "VS CODE" },
-    { img: figma, alt: "FIGMA" },
+    { img: java, alt: "JAVA" },
   ];
   return (
     <div className="dark:bg-[#484148]">
