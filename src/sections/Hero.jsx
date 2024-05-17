@@ -5,14 +5,14 @@ function Hero() {
   const { t, i18n } = useTranslation();
   const isEnglish = i18n.language === "en";
   return (
-    <div className="flex justify-center items-center  py-12  dark:bg-[#2A262B]  bg-[#F4F4F4] ">
+    <div className="flex justify-center items-center pt-1 md:pt-6 pb-12  dark:bg-[#2A262B]  bg-[#F4F4F4] ">
       <div className="flex flex-col md:flex-row justify-between items-center max-w-screen-lg   ">
         <div className="w-[80%] md:w-[55%]">
           <div className="">
             <p className="font-inter font-light text-3xl dark:text-[#FFFFFF]">
               {t("hero.hi")} <br />
             </p>
-            <p className="font-inter font-medium text-4xl mt-7 leading-[3.5rem] dark:text-[#FFFFFF]">
+            <p className="font-inter font-medium text-2xl mt-7 leading-[3rem] dark:text-[#FFFFFF]">
               {t("hero.intro")}
               {isEnglish && <br />} {t("hero.intro2")}
             </p>
