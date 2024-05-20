@@ -1,7 +1,6 @@
 import React from "react";
 import js from "../assets/js.jpg";
-import figma from "../assets/figma.jpg";
-import node from "../assets/node.jpg";
+import spring from "../assets/spring.png";
 import riakt from "../assets/react.png";
 import vscode from "../assets/vscode.png";
 import ridaks from "../assets/xd.png";
@@ -14,9 +13,9 @@ function Skills() {
     { img: js, alt: "JAVASCRIPT" },
     { img: riakt, alt: "REACT" },
     { img: ridaks, alt: "REDUX" },
-    { img: node, alt: "NODE JS" },
-    { img: vscode, alt: "VS CODE" },
     { img: java, alt: "JAVA" },
+    { img: spring, alt: "SPRING BOOT" },
+    { img: vscode, alt: "VS CODE" },
   ];
   return (
     <div className="dark:bg-[#484148]">
