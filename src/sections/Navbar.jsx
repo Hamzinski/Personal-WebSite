@@ -42,14 +42,14 @@ function Navbar() {
       <div className="flex justify-center md:justify-end mx-auto max-w-screen-lg">
         <div className="flex items-center gap-6 font-inter">
           <button
-            className="w-24 md:w-16 h-6 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow"
+            className="w-16 h-6 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow"
             onClick={changeTheme}
           >
             <div
               id="switch-toggle"
               className={`w-8 h-8 relative rounded-full transition duration-500 transform -translate-x-2 p-1 text-white ${
                 themeState == "dark"
-                  ? "bg-gray-700 translate-x-8 md:translate-x-10 "
+                  ? "bg-gray-700 translate-x-10"
                   : "bg-yellow-500 -translate-x-2"
               }`}
             >
@@ -84,7 +84,7 @@ function Navbar() {
               )}
             </div>
           </button>
-          <p className="text-[#777777] dark:text-[#D9D9D9]">
+          <p className="text-[#777777] dark:text-[#D9D9D9] hidden md:block">
             {themeState === "dark" ? t("mod1") : t("mod")}
           </p>
           <p className="h-4 border-solid w-fit border-r-2 border-black dark:border-white"></p>

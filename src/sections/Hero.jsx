@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="flex justify-center items-center pt-1 md:pt-6 pb-12  dark:bg-[#2A262B]  bg-[#F4F4F4] ">
       <div className="flex flex-col md:flex-row justify-between items-center max-w-screen-lg   ">
-        <div className="w-[80%] md:w-[55%]">
+        <div className="w-[100%] md:w-[55%] px-6 md:px-0">
           <div className="">
             <p className="font-inter font-light text-3xl dark:text-[#FFFFFF]">
               {t("hero.hi")} <br />
