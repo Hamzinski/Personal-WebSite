@@ -40,7 +40,7 @@ function Navbar() {
 
   return (
     <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-12">
-      <div className="flex justify-center md:justify-between mx-auto max-w-screen-lg">
+      <div className="flex flex-col md:flex-row gap-6 justify-center items-center md:justify-between mx-auto max-w-screen-lg">
         <div>
           <Logo />
         </div>
