@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Logo from "../components/Logo";
+import Hamburger from "../components/Hamburger";
 function Navbar() {
   const { t, i18n } = useTranslation();
   const isEnglish = i18n.language === "en";
@@ -39,10 +40,13 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-12">
+    <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-6 md:p-12">
       <div className="flex flex-col md:flex-row gap-6 justify-center items-center md:justify-between mx-auto max-w-screen-lg">
-        <div>
+        <div className="flex justify-between md:justify-center items-center">
           <Logo />
+          <div className="md:hidden">
+            <Hamburger />
+          </div>
         </div>
         <div className="flex items-center gap-6 font-inter">
           <button
