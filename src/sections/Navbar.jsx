@@ -10,7 +10,7 @@ function Navbar() {
     i18n.changeLanguage(lang);
   };
   const [themeState, setThemeState] = useState();
-
+  const [menuVisible, setMenuVisible] = useState(false);
   const changeTheme = () => {
     const switchToggleElement = document.querySelector("#switch-toggle");
     if (localStorage.theme == "dark") {
@@ -40,15 +40,22 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-6 md:p-12">
+    <div className="bg-[#F4F4F4] dark:bg-[#2A262B] p-6 md:p-12 fixed top-0 left-0 right-0 z-50">
       <div className="flex flex-col md:flex-row gap-6 justify-center items-center md:justify-between mx-auto max-w-screen-lg">
         <div className="flex justify-between md:justify-center items-center">
           <Logo />
-          <div className="md:hidden">
+          <div
+            className="md:hidden"
+            onClick={() => setMenuVisible(!menuVisible)}
+          >
             <Hamburger />
           </div>
         </div>
-        <div className="flex items-center gap-6 font-inter">
+        <div
+          className={`flex items-center gap-6 font-inter ${
+            menuVisible ? "flex" : "hidden"
+          } md:flex`}
+        >
           <button
             className="w-16 h-6 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow"
             onClick={changeTheme}
