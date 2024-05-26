@@ -49,7 +49,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="ml-5 md:ml-1 w-80 mb-4 mt-12 md:mt-0 shadow-[-20px_-20px_1px_rgba(233,_37,_119,_1),_0_0px_0px_rgba(233,_37,_119,_1)] rounded-3xl">
+        <div className="photo_box ml-5 md:ml-1 w-80 mb-4 mt-12 md:mt-0">
           <img className="w-[100%]  rounded-3xl" src={hamz} alt="" />
         </div>
       </div>
