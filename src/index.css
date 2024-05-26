@@ -86,7 +86,7 @@ body,
   border: 10px solid #fff;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  animation: photo_animate 5s infinite alternate;
+  animation: photo_animate 2s infinite alternate;
 }
 
 .photo {
