@@ -92,7 +92,7 @@ function Projects() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-between mt-8">
+            <div className="flex flex-col gap-6 md:flex-row justify-center items-center md:justify-between mt-8">
               <a
                 className="font-inter font-semibold  text-xl dark:text-[#FFFFFF]"
                 href={project.link}

@@ -25,12 +25,12 @@
     "birdth": "Doğum Tarihi",
     "birdth1": "27.11.1998",
     "city": "İkamet Şehri",
-    "city1": "Kyoto",
+    "city1": "Bursa",
     "edu": "Eğitim Durumu",
     "edu1": "Dumlupınar Ünv. Bilgisayar Mühendisliği, 2023",
     "role": "Tercih Ettiği Rol",
-    "role1": "Frontend, UI",
-    "about": "Merhaba! Ben bir frontend geliştiriciyim. Görevim, kullanıcıların web siteleri veya uygulamalarıyla etkileşimde bulundukları arayüzün ön yüzünü oluşturmaktır. ",
+    "role1": "FullStack Web Developer",
+    "about": "Merhaba! Ben bir fullstack geliştiriciyim. Görevim, kullanıcıların web siteleri veya uygulamalarıyla etkileşimde bulundukları arayüzün ön yüzünü oluşturmaktır. ",
     "about1": "HTML, CSS ve JavaScript gibi web teknolojilerini kullanarak, kullanıcı deneyimini geliştirmek için sürekli olarak çalışıyorum."
   },
   "projects": {

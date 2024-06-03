@@ -25,12 +25,12 @@
     "birdth": "Date of Birth",
     "birdth1": "27.11.1998",
     "city": "City of Residence",
-    "city1": "Kyoto",
+    "city1": "Bursa",
     "edu": "Educational Status",
     "edu1": "Dumlupınar Uni. Computer Science, 2023",
     "role": "Preferred Role",
-    "role1": "Frontend, UI",
-    "about": "Hello! I'm a frontend developer. My role is to create the frontend of the interface through which users interact with websites or applications.",
+    "role1": "FullStack Web Developer",
+    "about": "Hello! I'm a fullstack developer. My role is to create the frontend of the interface through which users interact with websites or applications.",
     "about1": "I am constantly working to improve the user experience using web technologies such as HTML, CSS and JavaScript."
   },
   "projects": {
